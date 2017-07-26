@@ -17,15 +17,15 @@ console.log(fullName);
 //Expressions & Operators
 // 1. create two variables called "num1", "num2", and "numberResult"
 // 2. Run the following operators "+", "-", "*", "%", "/",and store them in numberResult
-let num1=1, num2=2;
+let num1=10, num2=2; //
 let numberResult=((((num1+num2)*num1)-num2)/2)%2;
-
+console.log(numberResult);
 
 //Linking JavaScript to HTML File
 // Write the HTML tag to link the file "script.js" that's located in a folder called JS
 // User JavaScript comments to comment this tag out or else the code below this will not work
-/* ASSUMING THAT FOLDER IS IN JS-REVIEW
-      <script type = "text/JavaScript" src="js/script.js>
+/* ASSUMMING THAT FOLDER IS IN JS-REVIEW
+      <script src="js/script.js>
       </script>
 
 */
@@ -92,13 +92,14 @@ var person= {
        return this.fullName.toUpperCase();
     }
 }
+console.log(person.allCaps());
 
 //DOM
 //How would you describe the DOM?
 //How do you manipulate the DOM?
 /*
-    The Document Object Model is a json formatted file that contains info about our website.
-    you manipulate it by selecting, using different methods such as get Element by ID, or type, etc.
+    The Document Object Model defines the logical structure of documents and the way a document is accessed and manipulated. (JSON)
+    you manipulate it with javascript, by selecting,etc using different methods such as get Element by ID, or type, etc.
 */
 //Git and Github
 //1. Create a repo call JS Review
@@ -120,4 +121,5 @@ var fizzBuzz= function (n){
     if (n%5==0) result+='buzz';
     return result;
 }
+console.log(fizzBuzz(15));
 
