@@ -6,7 +6,6 @@ var firstName="Juri",
  lastName="Rodriguez",
  age=128;
 
-
 //String Concatenation
 // 1. Create a variable called "fullName" that stores your "lastName" and "firstName"
 // 2. console.log() your fullName
@@ -35,7 +34,8 @@ console.log(numberResult);
 let a=false, b=true;
 if(a&&b) console.log("it's True");
 else console.log("it's false");
-
+if(5>3) console.log("it's more");
+else console.log("it's less");
 
 //Arrays
 //Create an array called menu that stores the menu for your website that includes "Home", "Portfolio", "About", "Contact"
